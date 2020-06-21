@@ -30,7 +30,7 @@ public class CacheSimulator {
     public static void main(String... args) {
         CacheSimulator cacheSimulator = new CacheSimulator(Integer.parseInt(args[0]));
 
-        cacheSimulator.simulate(args[1]);
+        cacheSimulator.simulate("trace" + args[1] + ".txt");
     }
 
     public void simulate(String fileAddress) {
