@@ -21,8 +21,12 @@ public class CacheSimulator {
 
     public CacheSimulator(int cacheType) {
         switch (cacheType) {
-            case 0 -> cache = new CacheTypeZero();
-            case 1 -> cache = new CacheTypeOne();
+            case 0:
+                cache = new CacheTypeZero();
+                break;
+            case 1:
+                cache = new CacheTypeOne();
+                break;
         }
     }
 
