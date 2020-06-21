@@ -1,6 +1,6 @@
 #-----------------------------------------------------------
-# Student Name  : 2016312021
-# Student ID No.: Moon Taeui
+# Student Name  : Moon Taeui
+# Student ID No : 2016312021
 #-----------------------------------------------------------
 CLASSES_DIR = bin
 
