@@ -23,7 +23,7 @@ default:
 	$(JAVAC) $(JAVAC_FLAGS) $(SOURCES)
 
 run:
-	$(JAVA) $(JAVA_FLAGS) simulator/UserInputManager $(ARGS)
+	$(JAVA) $(JAVA_FLAGS) CacheSimulator $(ARGS)
 
 clean:
 	rm -r $(CLASSES_DIR)/
